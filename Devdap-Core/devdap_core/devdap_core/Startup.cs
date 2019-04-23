@@ -43,7 +43,7 @@ namespace devdap_core
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Empty}/{action=coming_soon}/{id?}");
             });
         }
     }
