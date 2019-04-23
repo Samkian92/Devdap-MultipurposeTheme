@@ -15,6 +15,11 @@ namespace devdap_core.Controllers
             return View();
         }
 
+        public IActionResult coming_soon()
+        {
+            return View("coming_soon", "_Layout");
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
